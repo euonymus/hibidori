@@ -1,0 +1,1 @@
+記録するアルバムを選ぶ<section id="gridSystem">  <div class="row show-grid">    <div class="span1"><a href="/project/shoot/1">夏休みの研究</a></div>    <div class="span1"><a href="/project/shoot/1">なつこの成長</a></div>  </div></section>

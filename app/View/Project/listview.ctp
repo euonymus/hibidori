@@ -1,0 +1,1 @@
+<h2>アルバムを見る</h2><section id="gridSystem">  <div class="row show-grid">    <div class="span1"><a href="/project/show/1">夏休みの研究</a></div>    <div class="span1"><a href="/project/show/2">なつこの成長</a></div>  </div></section>
