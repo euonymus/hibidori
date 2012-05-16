@@ -1,1 +1,1 @@
-This is mypage
+This is mypage<br />アルバム名ほげ<br /><?= $this->Html->link('撮影', '/camera/shoot/1') ?><br /><?= $this->Html->link('アルバムを見る', '/album/detail/1') ?><br /><hr />アルバム名ほげ<br /><?= $this->Html->link('撮影', '/camera/shoot/1') ?><br /><?= $this->Html->link('アルバムを見る', '/album/detail/1') ?><br /><hr /><?= $this->Html->link('アルバム作成', '/album/create') ?><br />

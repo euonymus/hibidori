@@ -627,3 +627,69 @@
 2012-05-16 19:06:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
 #0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-05-16 19:11:11 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:11:22 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-16 19:18:44 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:19:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:19:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:28:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:28:57 Error: [MissingActionException] Action ProfileController::euonymus() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ProfileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-16 19:28:57 Error: [MissingActionException] Action ProfileController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ProfileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-16 19:29:24 Error: [MissingActionException] Action ProfileController::euonymus() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ProfileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-16 19:29:24 Error: [MissingActionException] Action ProfileController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ProfileController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-16 19:29:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:30:01 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:30:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:30:26 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:30:26 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:33:38 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:33:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:34:03 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

@@ -1,1 +1,1 @@
-Album detail
+Album detail<br /><?= $this->Html->link('プロフィール', '/profile/euonymus') ?><br />

@@ -31,6 +31,7 @@
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
   Router::connect('/:controller/list/*', array('action' => 'listview'));
+  Router::connect('/profile/*', array('controller' => 'profile', 'action' => 'index'));
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on 
