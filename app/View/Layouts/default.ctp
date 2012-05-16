@@ -7,9 +7,10 @@
 <title></title>
 
 <!-- Le styles -->
-<?= $this->Html->css('bootstrap') ?>
-<?= $this->Html->css('bootstrap-responsive') ?>
-<?= $this->Html->css('docs') ?>
+<?//= $this->Html->css('bootstrap') ?>
+<?//= $this->Html->css('bootstrap-responsive') ?>
+<?//= $this->Html->css('docs') ?>
+<?= $this->Html->css('style') ?>
 <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -32,9 +33,11 @@
 <?= $scripts_for_layout ?>
 
 <body data-spy="scroll" data-target=".subnav" data-offset="50">
+  <div id="wrapper"><div class="inner">
 <?= $this->element('nav') ?>
 <?//= $this->element('header') ?>
 <?= $content_for_layout ?>
 <?= $this->element('footer') ?>
 <?= $this->element('google_analytics') ?>
+  </div></div>
 </body>

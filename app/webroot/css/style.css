@@ -1,0 +1,68 @@
+/*
+ * STYLE.CSS
+ * * */
+
+/* * * * * *  reset  * * * * * */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0;font-weight:normal; }
+table { border-collapse:collapse;border-spacing:0;}
+fieldset,img { border:0;}
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal;}
+ol,ul { list-style:none;}
+caption,th { text-align:left;}
+q:before,q:after { content:'';}
+abbr,acronym { border:0;}
+
+input[type="submit"],button    { cursor:pointer;}
+input, select { vertical-align:middle;}
+
+/* * * * * *  html 5 fix  * * * * * */
+section,
+article,
+header,
+footer,
+nav,
+aside,
+hgroup      { display: block; }
+
+/* * * * * *  headings  * * * * * */
+h1, h2, h3, h4, h5, h6  { font-size: 1em; }
+
+/* * * * * *  clearfix  * * * * * */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+body {
+  line-height: 1.125em; 
+  font : 75%/150% 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    *font-family : 'ＭＳ Ｐゴシック',sans-serif; /* IE 7 and below */
+  position: relative;
+  color: #333;
+}
+
+html, body {
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+  background: #fff;
+}
+
+#wrapper {
+  background: #fff url(/img/bg_iphonemock.png) 0 0 no-repeat;
+  width:380px;
+  height: 744px;
+  margin: 30px auto;
+  padding-top: 135px;
+}
+
+#wrapper .inner {
+  background: #fff;
+  width: 320px;
+  height: 480px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0 30px;
+}
