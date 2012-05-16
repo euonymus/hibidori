@@ -1,0 +1,1 @@
+Album create<br /><?= $this->Html->link('次へ', '/camera/shoot/1') ?>

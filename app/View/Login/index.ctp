@@ -1,0 +1,1 @@
+login page<br /><?= $this->Html->link('アルバム作成へ', '/album/create') ?>

@@ -170,3 +170,460 @@
 2012-05-15 11:43:11 Error: [MissingControllerException] Controller class AssetsController could not be found.
 #0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-05-16 17:40:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 17:43:49 Error: [MissingViewException] View file "/Users/satoshi-mayumi/Sites/hibidori/app/View/Welcome/index.ctp" is missing.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-16 17:43:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 17:44:35 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 17:44:51 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:31:25 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:32:59 Error: [MissingViewException] View file "/Users/satoshi-mayumi/Sites/hibidori/app/View/Album/index.ctp" is missing.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-16 18:32:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:33:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:35:38 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-16 18:35:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:36:27 Error: [MissingViewException] View file "/Users/satoshi-mayumi/Sites/hibidori/app/View/Album/detail.ctp" is missing.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-16 18:36:27 Error: [MissingViewException] View file "/Users/satoshi-mayumi/Sites/hibidori/app/View/Album/detail.ctp" is missing.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-16 18:36:30 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:37:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:39:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:40:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:41:20 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:41:26 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:41:39 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:41:45 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:42:13 Error: [MissingViewException] View file "/Users/satoshi-mayumi/Sites/hibidori/app/View/Login/index.ctp" is missing.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-16 18:42:13 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:42:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:42:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:42:54 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:42:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:43:05 Error: [MissingActionException] Action ProjectController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ProjectController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-16 18:44:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:46:27 Error: [MissingActionException] Action ProjectController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ProjectController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-16 18:46:41 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:46:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:47:18 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:50:06 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:50:27 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:50:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:51:30 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:51:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:51:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:52:32 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:53:02 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:54:57 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:54:59 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-16 18:57:22 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-16 18:57:27 Error: [MissingControllerException] Controller class CameraController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:57:27 Error: [MissingControllerException] Controller class CameraController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 18:59:17 Error: [MissingViewException] View file "/Users/satoshi-mayumi/Sites/hibidori/app/View/Camera/shoot.ctp" is missing.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CameraController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-16 18:59:17 Error: [MissingViewException] View file "/Users/satoshi-mayumi/Sites/hibidori/app/View/Camera/shoot.ctp" is missing.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(CameraController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-16 19:00:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:06:57 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-16 19:06:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
