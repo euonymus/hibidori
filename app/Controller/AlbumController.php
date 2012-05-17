@@ -1,12 +1,11 @@
 <?php
 App::uses('Folder', 'Utility');
 class AlbumController extends AppController {
+  public $uses = array('Twuser');
+
   function index() { $this->redirect('/'); }
 
   function create() {
-
-    
-
   }
 
   function detail($id = null) {

@@ -3,6 +3,7 @@ App::uses('TwitterWithOauth', 'euonymus');
 App::uses('HostStat', 'euonymus');
 App::uses('Crypt', 'euonymus');
 class LoginController extends AppController {
+  public $uses = array('Twuser');
   public $helpers = array('Html', 'Js', 'Cache');
 
   public $error_messages = array(
@@ -53,13 +54,12 @@ class LoginController extends AppController {
     // Set Login info in Session & save it to DB
     $this->OauthLogin->setLoginSession($accessToken, $tw_user);
 
-//    $this->Twuser->saveAndGetId($tw_user, $accessToken);
+    $this->Twuser->saveAndGetId($tw_user, $accessToken);
 
     // Remove all session info set in _login action
     $this->Session->delete('twitter_request_token');
     $this->Session->delete('redirect_url');
 
-pr($tw_user);
     $this->redirect($redirect_url);
   }
 
@@ -74,13 +74,6 @@ pr($tw_user);
     elseif(isset($_SERVER['HTTP_REFERER'])) $redirect_url = $_SERVER['HTTP_REFERER'];
     else $redirect_url = '/';
     $this->redirect(h($redirect_url));
-  }
-
-  function _ng_to_referer($id = null){
-    if(array_key_exists('location', $this->params['url'])) {
-      $location = '?location='.Crypt::encrypt($this->params['url']['location']);
-    } else $location = '';
-    $this->redirect('/oauth/m_login/id:'.$id.'/error:1'.$location);
   }
 
   function _getHostname() {
