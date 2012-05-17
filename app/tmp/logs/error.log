@@ -693,3 +693,33 @@
 #1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
 #2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-05-16 19:44:04 Error: [MissingComponentException] Component class OauthLoginComponent could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/ComponentCollection.php(52): ComponentCollection->load('OauthLogin', Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(635): ComponentCollection->init(Object(OauthController))
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(99): Controller->constructClasses()
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(OauthController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-16 19:44:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-16 19:49:17 Error: [MissingComponentException] Component class UtilComponent could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/ComponentCollection.php(52): ComponentCollection->load('Util', Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(635): ComponentCollection->init(Object(OauthController))
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(99): Controller->constructClasses()
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(OauthController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-16 19:49:18 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-17 16:53:03 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-17 17:41:35 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-17 18:10:34 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-17 18:32:10 Error: BITLY API FAILURE: URL: http://google/com. Status_code: 500. Status: INVALID_URI
