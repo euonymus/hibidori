@@ -3,10 +3,9 @@ App::uses('TwitterWithOauth', 'euonymus');
 App::uses('HostStat', 'euonymus');
 App::uses('Crypt', 'euonymus');
 class LoginController extends AppController {
-  var $components = array('OAuthConsumer', 'OauthLogin', 'Util');
-  var $helpers = array('Html', 'Js', 'Cache');
+  public $helpers = array('Html', 'Js', 'Cache');
 
-  var $error_messages = array(
+  public $error_messages = array(
     '予期せぬエラーが発生しました。',
     'アクセスは拒否されました。',
     'Twitterへのアクセスを拒否しました。',

@@ -3,14 +3,17 @@
   * Description: functions to take care of OAuth login
 */
 class OauthLoginComponent extends Object {
-  var $login = false;
-  var $accessToken = null;
-  var $tw_user = null;
+  const SESSION_LOGIN_TWITTER_ACTOKEN = 'LOGIN.TWITTER.ACCESS.TOKEN';
+  const SESSION_LOGIN_TWUSER = 'LOGIN.TWUSER';
+
+  public $login = false;
+  public $accessToken = null;
+  public $tw_user = null;
 
   function initialize(&$controller, $settings = array()) {
     // Saving the controller reference for later use
     $this->controller =& $controller;
-    $this->setLogin();
+    $this->checkLogin();
   }
 
   function startup(&$controller) {
@@ -29,9 +32,9 @@ class OauthLoginComponent extends Object {
   /* Followings are primitive functions                    */
   /*********************************************************/
   function checkLogin() {
-    $this->accessToken = $this->controller->Session->read('twitter_access_token');
+    $this->accessToken = $this->controller->Session->read(self::SESSION_LOGIN_TWITTER_ACTOKEN);
     if (!empty($this->accessToken)) {
-      $serial_tw_user = $this->controller->Session->read('tw_user');
+      $serial_tw_user = $this->controller->Session->read(self::SESSION_LOGIN_TWUSER);
       if(is_string($serial_tw_user)) {
         $this->tw_user = unserialize(base64_decode($serial_tw_user));
       } else {
@@ -46,19 +49,15 @@ class OauthLoginComponent extends Object {
     return $this->login;
   }
 
-  function setLogin() {
-    $this->checkLogin();
-  }
-
   function setLoginSession($accessToken, $tw_user) {
     $this->controller->Session->renew();
-    $this->controller->Session->write('twitter_access_token', $accessToken);
-    $this->controller->Session->write('tw_user', base64_encode(serialize($tw_user)));
+    $this->controller->Session->write(self::SESSION_LOGIN_TWITTER_ACTOKEN, $accessToken);
+    $this->controller->Session->write(self::SESSION_LOGIN_TWUSER, base64_encode(serialize($tw_user)));
   }
 
   function delLoginSession() {
-    $this->controller->Session->delete('twitter_access_token');
-    $this->controller->Session->delete('tw_user');
+    $this->controller->Session->delete(self::SESSION_LOGIN_TWITTER_ACTOKEN);
+    $this->controller->Session->delete(self::SESSION_LOGIN_TWUSER);
     $this->login = $this->checkLogin();
   }
 }
