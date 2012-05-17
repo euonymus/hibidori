@@ -76,13 +76,6 @@ class LoginController extends AppController {
     $this->redirect(h($redirect_url));
   }
 
-  function _ng_to_referer($id = null){
-    if(array_key_exists('location', $this->params['url'])) {
-      $location = '?location='.Crypt::encrypt($this->params['url']['location']);
-    } else $location = '';
-    $this->redirect('/oauth/m_login/id:'.$id.'/error:1'.$location);
-  }
-
   function _getHostname() {
     // Set callback domain
     $hostname = HostStat::getDomain(true);

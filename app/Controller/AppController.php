@@ -39,6 +39,5 @@ class AppController extends Controller {
    */
   function beforeFilter(){
     parent::beforeFilter();
-//    $this->Login->setLogin();
   }
 }
