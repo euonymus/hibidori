@@ -1,1 +1,1 @@
-<hr><ul>  <li><?= $this->Html->link('ホーム', '/') ?></li>  <li>お気に入り</li>  <li>カメラ</li>  <li><?= $this->Html->link('マイページ', '/mypage') ?></li>  <li><?= $this->Html->link('設定', '/album/setting/1') ?></li></ul>
+<ul class="footer">  <li><?= $this->Html->link('ホーム', '/') ?></li>  <li>お気に入り</li>  <li>カメラ</li>  <li><?= $this->Html->link('マイページ', '/mypage') ?></li>  <li><?= $this->Html->link('設定', '/album/setting/1') ?></li></ul>

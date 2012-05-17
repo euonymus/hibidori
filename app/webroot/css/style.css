@@ -75,6 +75,25 @@ html, body {
   background: #fff;
 }
 
+.timeline li {
+  display:block;
+  width:80px;
+  height:80px;
+  float:left;
+}
 
+.timeline li img {
+  width:80px;
+  height:80px;
+}
 
+.footer {
+  clear:both;
+}
+
+.footer li {
+  font-size: 85%;
+  margin: 0 10px;
+  display: inline;
+}
 
