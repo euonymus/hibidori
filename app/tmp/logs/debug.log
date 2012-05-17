@@ -1,7 +1,0 @@
-2012-05-17 16:59:03 Debug: TWITTER OAUTH FAILURE: couldn't get request_token. USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19
-2012-05-17 17:02:30 Debug: TWITTER OAUTH FAILURE: couldn't get request_token. USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19
-2012-05-17 17:36:16 Debug: TWITTER OAUTH FAILURE: couldn't get request_token. USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19
-2012-05-17 17:36:29 Debug: TWITTER OAUTH FAILURE: couldn't get request_token. USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19
-2012-05-17 17:37:13 Debug: TWITTER OAUTH FAILURE: couldn't get request_token. USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19
-2012-05-17 17:41:47 Debug: TWITTER OAUTH FAILURE: couldn't get request_token. USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19
-2012-05-17 19:54:18 Debug: LOGIN FAILURE: OAuth access was not accepted by Twitter. USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19
