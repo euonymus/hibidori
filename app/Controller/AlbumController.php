@@ -1,11 +1,17 @@
 <?php
 App::uses('Folder', 'Utility');
 class AlbumController extends AppController {
-  public $uses = array('Twuser');
+  public $uses = array('Twuser', 'Album');
 
   function index() { $this->redirect('/'); }
 
   function create() {
+    if ($this->data) {
+      $saved = $this->Album->saveNewData($this->data, $this->OauthLogin->tw_user['id']);
+      if ($saved) {
+        $this->redirect('/camera/shoot/' . $saved['Album']['id']);
+      }
+    }
   }
 
   function detail($id = null) {
