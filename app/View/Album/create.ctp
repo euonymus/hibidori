@@ -1,1 +1,1 @@
-Album create<br /><?= $this->Html->link('次へ', '/camera/shoot/1') ?>
+<section>  <h1>アルバム作成</h1>  アルバム名：  <input type="text" name="album_name" /><br /><?= $this->Html->link('次へ', '/camera/shoot/1') ?></section>

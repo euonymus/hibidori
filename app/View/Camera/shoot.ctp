@@ -1,1 +1,1 @@
-Camera<br /><?= $this->Html->image('/img/sample_flame.jpg', array('alt' =>'あると')) ?><br /><?= $this->Html->link('次へ', '/album/detail/1') ?>
+<a href="/album/detail/1"><?= $this->Html->image('/img/sample_flame.jpg', array('alt' =>'あると')) ?></a>
