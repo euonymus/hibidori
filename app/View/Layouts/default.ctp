@@ -7,11 +7,12 @@
 <title></title>
 
 <!-- Le styles -->
-<?= $this->Html->css('bootstrap') ?>
-<?= $this->Html->css('bootstrap-responsive') ?>
-<?= $this->Html->css('docs') ?>
-<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+<?//= $this->Html->css('bootstrap') ?>
+<?//= $this->Html->css('bootstrap-responsive') ?>
+<?//= $this->Html->css('docs') ?>
 
+<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+<?= $this->Html->css('style') ?>
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -24,17 +25,18 @@
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
 <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
-<link rel="stylesheet" href="http://blueimp.github.com/cdn/css/bootstrap-responsive.min.css">
-<!--[if lt IE 7]><link rel="stylesheet" href="http://blueimp.github.com/cdn/css/bootstrap-ie6.min.css"><![endif]-->
-<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<link rel="stylesheet" href="http://blueimp.github.com/cdn/css/bootstrap-image-gallery.min.css">
-
 <?= $scripts_for_layout ?>
 
-<body data-spy="scroll" data-target=".subnav" data-offset="50">
-<?= $this->element('nav') ?>
+<body>
+  <div id="wrapper"><div class="inner">
+<?//= $this->element('nav') ?>
 <?//= $this->element('header') ?>
 <?= $content_for_layout ?>
-<?= $this->element('footer') ?>
+<?php
+  if(empty($hideFooter)){
+    echo $this->element('footer');
+  }
+?>
 <?= $this->element('google_analytics') ?>
+  </div></div>
 </body>

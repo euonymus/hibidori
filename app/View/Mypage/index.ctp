@@ -1,0 +1,1 @@
+アルバム一覧<br />夏休みの研究<br /><?= $this->Html->link('撮影', '/camera/shoot/1') ?><br /><?= $this->Html->link('アルバムを見る', '/album/detail/1') ?><br /><hr />なつこの成長<br /><?= $this->Html->link('撮影', '/camera/shoot/1') ?><br /><?= $this->Html->link('アルバムを見る', '/album/detail/1') ?><br /><hr /><?= $this->Html->link('アルバム作成', '/album/create') ?><br />
