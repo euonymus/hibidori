@@ -925,3 +925,621 @@
 #1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
 #2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-05-17 19:41:06 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 19:44:00 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 19:45:03 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 19:54:18 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAndGetId' at line 1
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('saveAndGetId', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('saveAndGetId', Array, Array)
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('saveAndGetId', Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(775): DboSource->query('saveAndGetId', Array, Object(AppModel))
+#5 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/LoginController.php(57): Model->__call('saveAndGetId', Array)
+#6 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/LoginController.php(57): AppModel->saveAndGetId(Array, Object(OAuthToken))
+#7 [internal function]: LoginController->callback()
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LoginController), Array)
+#9 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-17 19:54:19 Error: [MissingViewException] View file "/Users/satoshi-mayumi/Sites/hibidori/app/View/Login/ng.ctp" is missing.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/View/View.php(460): View->_getViewFileName(NULL)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-17 19:56:30 Error: [MissingControllerException] Controller class OauthController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-17 19:56:30 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-17 19:56:32 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 19:56:44 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 19:57:02 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 19:57:19 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAndGetId' at line 1
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('saveAndGetId', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('saveAndGetId', Array, Array)
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('saveAndGetId', Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(775): DboSource->query('saveAndGetId', Array, Object(AppModel))
+#5 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(9): Model->__call('saveAndGetId', Array)
+#6 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(9): AppModel->saveAndGetId(Array)
+#7 [internal function]: AlbumController->create()
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#9 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-17 19:57:19 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 19:58:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAndGetId' at line 1
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('saveAndGetId', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('saveAndGetId', Array, Array)
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('saveAndGetId', Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(775): DboSource->query('saveAndGetId', Array, Object(AppModel))
+#5 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(9): Model->__call('saveAndGetId', Array)
+#6 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(9): AppModel->saveAndGetId(Array)
+#7 [internal function]: AlbumController->create()
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#9 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-17 19:58:33 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 19:59:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(AppModel), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 19:59:15 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 19:59:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(AppModel), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 19:59:51 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 19:59:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(AppModel), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 19:59:56 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:01:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(AppModel), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 20:01:12 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:01:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(AppModel), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 20:01:29 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:01:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(AppModel), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 20:01:44 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:01:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(AppModel), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 20:01:59 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:12:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(AppModel), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 20:12:28 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:13:59 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAndGetId' at line 1
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('saveAndGetId', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('saveAndGetId', Array, Array)
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('saveAndGetId', Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(775): DboSource->query('saveAndGetId', Array, Object(AppModel))
+#5 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): Model->__call('saveAndGetId', Array)
+#6 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): AppModel->saveAndGetId(Array)
+#7 [internal function]: AlbumController->create()
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#9 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-17 20:13:59 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:14:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAndGetId' at line 1
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('saveAndGetId', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('saveAndGetId', Array, Array)
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('saveAndGetId', Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(775): DboSource->query('saveAndGetId', Array, Object(AppModel))
+#5 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): Model->__call('saveAndGetId', Array)
+#6 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): AppModel->saveAndGetId(Array)
+#7 [internal function]: AlbumController->create()
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#9 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-17 20:14:31 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:15:12 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:15:28 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAndGetId' at line 1
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('saveAndGetId', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('saveAndGetId', Array, Array)
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('saveAndGetId', Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(775): DboSource->query('saveAndGetId', Array, Object(AppModel))
+#5 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): Model->__call('saveAndGetId', Array)
+#6 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): AppModel->saveAndGetId(Array)
+#7 [internal function]: AlbumController->create()
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#9 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-17 20:15:28 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:15:39 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAndGetId' at line 1
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('saveAndGetId', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('saveAndGetId', Array, Array)
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('saveAndGetId', Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(775): DboSource->query('saveAndGetId', Array, Object(AppModel))
+#5 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): Model->__call('saveAndGetId', Array)
+#6 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): AppModel->saveAndGetId(Array)
+#7 [internal function]: AlbumController->create()
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#9 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-17 20:15:40 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:15:47 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAndGetId' at line 1
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('saveAndGetId', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('saveAndGetId', Array, Array)
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('saveAndGetId', Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(775): DboSource->query('saveAndGetId', Array, Object(AppModel))
+#5 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): Model->__call('saveAndGetId', Array)
+#6 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): AppModel->saveAndGetId(Array)
+#7 [internal function]: AlbumController->create()
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#9 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-17 20:15:47 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:15:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAndGetId' at line 1
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('saveAndGetId', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('saveAndGetId', Array, Array)
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('saveAndGetId', Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(775): DboSource->query('saveAndGetId', Array, Object(AppModel))
+#5 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): Model->__call('saveAndGetId', Array)
+#6 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): AppModel->saveAndGetId(Array)
+#7 [internal function]: AlbumController->create()
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#9 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-17 20:15:55 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:17:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAndGetId' at line 1
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('saveAndGetId', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('saveAndGetId', Array, Array)
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('saveAndGetId', Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(775): DboSource->query('saveAndGetId', Array, Object(AppModel))
+#5 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): Model->__call('saveAndGetId', Array)
+#6 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(10): AppModel->saveAndGetId(Array)
+#7 [internal function]: AlbumController->create()
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#9 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-05-17 20:17:34 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:19:48 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:19:59 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:21:00 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:21:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Twuser), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 20:21:58 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:22:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Twuser), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 20:22:15 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:22:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Twuser), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 20:22:42 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:22:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Twuser), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 20:22:47 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:23:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Twuser), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 20:23:00 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:23:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Twuser), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 20:23:17 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:23:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'field list'
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('INSERT INTO `hi...', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(985): DboSource->execute('INSERT INTO `hi...')
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(1705): DboSource->create(Object(Twuser), Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(12): Model->save(Array)
+#5 [internal function]: AlbumController->create()
+#6 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#7 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-05-17 20:23:42 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:24:09 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:25:00 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:25:25 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:25:29 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:26:42 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:27:19 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:31:10 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:32:09 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:33:06 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'convertArray' at line 1
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('convertArray', Array)
+#2 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('convertArray', Array, Array)
+#3 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Datasource/DboSource.php(589): DboSource->fetchAll('convertArray', Array, Array)
+#4 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Model/Model.php(775): DboSource->query('convertArray', Array, Object(Twuser))
+#5 /Users/satoshi-mayumi/Sites/hibidori/app/Model/Twuser.php(22): Model->__call('convertArray', Array)
+#6 /Users/satoshi-mayumi/Sites/hibidori/app/Model/Twuser.php(22): Twuser->convertArray(Array, NULL)
+#7 /Users/satoshi-mayumi/Sites/hibidori/app/Model/Twuser.php(15): Twuser->updateTwuser(NULL, Array, NULL)
+#8 /Users/satoshi-mayumi/Sites/hibidori/app/Controller/AlbumController.php(11): Twuser->saveAndGetId(Array)
+#9 [internal function]: AlbumController->create()
+#10 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AlbumController), Array)
+#11 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#13 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2012-05-17 20:33:06 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:33:33 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:38:36 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:38:47 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:39:28 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:39:56 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:40:05 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:41:52 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-17 20:42:09 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:42:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-17 20:43:14 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-17 20:43:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-17 20:43:46 Error: [MissingActionException] Action AlbumController::assets() could not be found.
+#0 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/satoshi-mayumi/Sites/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(AlbumController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/satoshi-mayumi/Sites/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
