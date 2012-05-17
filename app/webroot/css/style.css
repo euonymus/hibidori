@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6  { font-size: 1em; }
 /* End hide from IE-mac */
 
 body {
+  background: #fff;
   line-height: 1.125em; 
   font : 75%/150% 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
     *font-family : 'ＭＳ Ｐゴシック',sans-serif; /* IE 7 and below */
@@ -65,4 +66,15 @@ html, body {
   overflow-y: scroll;
   overflow-x: hidden;
   margin: 0 30px;
+  position: relative;
 }
+
+
+.ui-body-b,
+.ui-body-c {
+  background: #fff;
+}
+
+
+
+
