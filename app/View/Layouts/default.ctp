@@ -34,10 +34,14 @@
 
 <body data-spy="scroll" data-target=".subnav" data-offset="50">
   <div id="wrapper"><div class="inner">
-<?= $this->element('nav') ?>
+<?//= $this->element('nav') ?>
 <?//= $this->element('header') ?>
 <?= $content_for_layout ?>
-<?= $this->element('footer') ?>
+<?php
+  if(empty($hideFooter)){
+    echo $this->element('footer');
+  }
+?>
 <?= $this->element('google_analytics') ?>
   </div></div>
 </body>

@@ -1,0 +1,1 @@
+Album settinhg<br /><?= $this->Html->link('OK', '/album/detail/1') ?><br /><br />
