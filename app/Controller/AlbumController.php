@@ -12,7 +12,7 @@ class AlbumController extends AppController {
   function detail($id = null) {
     if (is_null($id)) $this->redirect('/');
     
-    $path = WWW_ROOT . 'img' . DS . 'albums' . DS . 'sample';
+    $path = WWW_ROOT . 'img' . DS . 'albums' . DS . $id;
     $folder = new Folder($path, true);
 
     $files_tmp = $folder->read(true, true);
@@ -22,6 +22,7 @@ class AlbumController extends AppController {
     endforeach;
 
     $this->set('files', $files);
+    $this->set('id', $id);
   }
 
   function setting($id = null) {
