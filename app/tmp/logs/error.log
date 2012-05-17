@@ -1027,3 +1027,12 @@
 2012-05-17 20:48:44 Error: [MissingControllerException] Controller class AssetsController could not be found.
 #0 C:\hibidori\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-05-17 20:56:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\hibidori\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-17 20:56:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\hibidori\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-17 20:57:22 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 C:\hibidori\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
