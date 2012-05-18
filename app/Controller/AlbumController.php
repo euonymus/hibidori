@@ -31,7 +31,14 @@ class AlbumController extends AppController {
     $files_tmp = $folder->read(true, true);
     $files = array();
     foreach($files_tmp[1] as $key => $file):
-      $files[(string)round(100 * ($key / (count($files_tmp[1]) - 1)),1)] = $file;
+
+    if (count($files_tmp[1]) == 1) {
+      $files_key = 0;
+    } else {
+
+      $files_key = (string)round(100 * ($key / (count($files_tmp[1]) - 1)),1);
+    }
+    $files[$files_key] = $file;
     endforeach;
 
     $this->set('files', $files);
