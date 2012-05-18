@@ -21,6 +21,7 @@
  */
 
 App::uses('Controller', 'Controller');
+App::uses('Crypt', 'euonymus');
 
 /**
  * Application Controller
@@ -39,6 +40,15 @@ class AppController extends Controller {
    */
   function beforeFilter(){
     parent::beforeFilter();
-//    $this->Login->setLogin();
+  }
+
+  function loginCheck() {
+    if (!$this->OauthLogin->login) $this->redirect('/login?location=' . Crypt::encrypt($this->genCurrentUrl()));
+  }
+
+  function genCurrentUrl() {
+    $query = http_build_query($this->request->query);
+    if (empty($query)) return $this->request->here;
+    else return $this->request->here . '?' . $query;
   }
 }
