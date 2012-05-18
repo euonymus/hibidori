@@ -14,5 +14,6 @@ class WelcomeController extends AppController {
 
     $this->set('location', (Crypt::encrypt('/album/create')));
     $this->set('files', $files);
+    $this->set('hideFooter', true);
   }
 }
