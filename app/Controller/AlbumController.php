@@ -6,12 +6,20 @@ class AlbumController extends AppController {
   function index() { $this->redirect('/'); }
 
   function create() {
+    $this->loginCheck();
+
     if ($this->data) {
       $saved = $this->Album->saveNewData($this->data, $this->OauthLogin->tw_user['id']);
       if ($saved) {
-        $this->redirect('/camera/shoot/' . $saved['Album']['id']);
+	//    $folder = new Folder($this->Album->path, true);
+    //    $folder->create('100');
+
+	$this->redirect('/camera/shoot/' . $saved['Album']['id']);
       }
     }
+
+
+
   }
 
   function detail($id = null) {
