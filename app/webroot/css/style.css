@@ -130,10 +130,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
   height: 55px;
 }
 
+.user-profile .name {
+  line-height: 55px;
+}
+
 .user-profile .user-img {
   display: block;
   float: left;
   margin-right: 10px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 1px rgba(255, 255, 255, 0.8) inset;
+  -moz-box-shadow: 0 1px rgba(255, 255, 255, 0.8) inset;
+  -webkit-box-shadow: 0 1px rgba(255, 255, 255, 0.8) inset;
 }
 
 .ui-body-b,
