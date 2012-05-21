@@ -1,3 +1,38 @@
+<script type="text/javascript">
+function preload(imgs){
+   imgs = [
+<? foreach($files as $key => $file): ?>
+  "http://hibidori.localhost/img/albums/<?=$id?>/<?= $file ?>",
+<? endforeach; ?>
+   ];
+
+  var objArray = [];
+  for(var i = 0; i < imgs.length; i++){
+    var imgObj = new Image();
+    imgObj.src = imgs[i];
+    objArray.push(imgObj);
+  }
+  var viewStatus = function(){
+    var count = 0;
+    var str = "";
+    for(var i = 0; i < objArray.length; i++){
+      if(objArray[i].complete) count++;
+    }
+    str += objArray.length + "件中" + count + "件完了";
+    if(count == objArray.length){
+      str += ":すべて完了しました。"
+    }
+    var viewElem = document.getElementById("view");
+    if(viewElem) viewElem.innerHTML = str;
+    if(count < objArray.length){
+      setTimeout(viewStatus, 300);
+    }
+  };
+  viewStatus();
+}
+
+</script>
+
 <? if (!isset($id)) $id = 'sample';?>
 <style>
 .slideshow {
@@ -25,4 +60,5 @@
   -webkit-animation-play-state: running;
 }
 </style>
+<div id="view">画像の読み込み中です…</div>
 <div class="slideshow"></div>

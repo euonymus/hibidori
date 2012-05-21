@@ -27,7 +27,7 @@
 
 <?= $scripts_for_layout ?>
 
-<body>
+<body <?=isset($isPreload)?'onload="preload();"':''?>>
   <div id="wrapper"><div class="inner">
 <?//= $this->element('nav') ?>
 <?//= $this->element('header') ?>
