@@ -28,6 +28,7 @@ class AlbumController extends AppController {
     $this->set('id', $id);
     $this->set('album', $album);
     $this->set('files', $files);
+    $this->set('isPreload', true);
   }
 
   function setting($id = null) {

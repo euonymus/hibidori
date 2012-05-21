@@ -1,0 +1,1 @@
+<h1>お気に入りアルバム一覧</h1>  <ul class="timeline"><? foreach($albums as $album) : ?>    <li><a href="/album/detail/<?= $album['Album']['id'] ?>"><?= $this->Html->image('/img/albums/' . $album['Album']['id'] . '/00001.jpg', array('alt' => $album['Album']['name'], 'width'=>'45px', 'height'=>'45px')) ?></a></li><? endforeach; ?>  </ul>
