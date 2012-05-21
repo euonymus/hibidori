@@ -40,3 +40,4 @@
 <?= $this->element('google_analytics') ?>
   </div></div>
 </body>
+<?= $this->element('sql_dump'); ?>

@@ -50,7 +50,7 @@ class PagesController extends AppController {
  *
  * @var array
  */
-	public $uses = array();
+  public $uses = array('Album');
 
 /**
  * Displays a view
@@ -58,6 +58,7 @@ class PagesController extends AppController {
  * @param mixed What page to display
  * @return void
  */
-	public function display() {
-	}
+  public function display() {
+    $this->set('albums', $this->Album->getNewAlbums());
+  }
 }
