@@ -36,6 +36,8 @@ class AlbumController extends AppController {
 
     $album = $this->Album->getWithTwuser($id, $this->OauthLogin->tw_user['id']);
     if (empty($album)) $this->redirect('/');
+    
+    //TODO save setting
 
     $this->set('album', $album);
     $this->set('id', $id);

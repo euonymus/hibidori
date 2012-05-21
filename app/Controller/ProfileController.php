@@ -8,8 +8,6 @@ class ProfileController extends AppController {
     //get profile info
     $twuser = $this->Twuser->getByScreenName($screenName);
     if(empty($twuser)){
-      //うちにそんな子はいません！
-      //エラーページ出すべき？
       $this->redirect('/');
     }
     $this->set('twuser', $twuser);
