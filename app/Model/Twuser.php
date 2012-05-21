@@ -54,4 +54,17 @@ class Twuser extends AppModel {
     }
     return $savedata;
   }
+  
+  function getByScreenName($screenName){
+    $options = $this->optActive();
+    $options['conditions']['screen_name'] = $screenName;
+
+    return $this->find('first', $options);
+  }
+  
+  function optActive() {
+    $options = array();
+    $options['conditions'] = array(__CLASS__.'.status' => 1);
+    return $options;
+  }
 }

@@ -54,6 +54,15 @@ class Album extends AppModel {
     return $this->find('first', $options);
   }
 
+  function getAlbumsById($id, $limit = 16, $isMine = false) {
+    $options = $this->optActive();
+    $options['conditions']['twuser_id'] = $id;
+    $options['order'] = 'modified desc';
+    $options['limit'] = $limit;
+
+    return $this->find('all', $options);
+  }
+
   function getNewAlbums($limit = 16) {
     $options = $this->optActive();
     $options['order'] = 'modified desc';
