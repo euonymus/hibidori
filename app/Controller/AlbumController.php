@@ -36,10 +36,21 @@ class AlbumController extends AppController {
 
     $album = $this->Album->getWithTwuser($id, $this->OauthLogin->tw_user['id']);
     if (empty($album)) $this->redirect('/');
-    
-    //TODO save setting
 
-    $this->set('album', $album);
+    $updated = false;
+    if($this->data){
+      if(!$this->Album->saveSettingData($album, $this->data, $this->OauthLogin->tw_user['id'])){
+        //TODO failed to save
+        
+      }else{
+        //get renew data
+        $album = $this->Album->getWithTwuser($id, $this->OauthLogin->tw_user['id']);
+        $updated = true;
+      }
+    }
+
     $this->set('id', $id);
+    $this->set('album', $album);
+    $this->set('updated', $updated);
   }
 }

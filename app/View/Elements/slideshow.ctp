@@ -17,7 +17,7 @@
 
 .slideshow {
   -webkit-animation-name: slideAnimation;
-  -webkit-animation-duration: 10.0s;
+  -webkit-animation-duration: <?=($album['Album']['play_speed'])?$album['Album']['play_speed']:'10'?>s;
   -webkit-animation-play-state: paused
 }
 .slideshow:hover {
