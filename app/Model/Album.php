@@ -46,9 +46,12 @@ class Album extends AppModel {
     return $this->save($data);
   }
 
-  function getWithTwuser($id, $isMine = false) {
+  function getWithTwuser($id, $twuser_id = false) {
     $options = $this->optActive();
     $options['conditions'][__CLASS__.'.id'] = $id;
+    if($twuser_id){
+      $options['conditions'][__CLASS__.'.twuser_id'] = $twuser_id;
+    }
 
     $this->bindTwuser();
     return $this->find('first', $options);
