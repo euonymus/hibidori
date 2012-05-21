@@ -105,9 +105,10 @@ class Album extends AppModel {
   function saveSettingData($orgAlbum, $data, $twuser_id) {
     //TODO もうちょっと美しく。
     $this->id = $orgAlbum[__CLASS__]['id'];
-    $this->name = $orgAlbum[__CLASS__]['name'];
     $this->status = $orgAlbum[__CLASS__]['status'];
     $this->twuser_id = $orgAlbum[__CLASS__]['twuser_id'];
+
+    $this->name = $data[__CLASS__]['name'];
     $this->play_speed = $data[__CLASS__]['play_speed'];
     $this->public = $data[__CLASS__]['public'];
     return $this->save($this);
