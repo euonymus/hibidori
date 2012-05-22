@@ -1,8 +1,9 @@
+<? if (!isset($id)) $id = 'sample';?>
 <script type="text/javascript">
 function preload(imgs){
    imgs = [
 <? foreach($files as $key => $file): ?>
-  "http://hibidori.localhost/img/albums/<?=$id?>/<?= $file ?>",
+  "/img/albums/<?=$id?>/<?= $file ?>",
 <? endforeach; ?>
    ];
 
@@ -33,7 +34,6 @@ function preload(imgs){
 
 </script>
 
-<? if (!isset($id)) $id = 'sample';?>
 <style>
 .slideshow {
 <?= $this->Html->style(array(
@@ -52,7 +52,7 @@ function preload(imgs){
 
 .slideshow {
   -webkit-animation-name: slideAnimation;
-  -webkit-animation-duration: <?=($album['Album']['play_speed'])?$album['Album']['play_speed']:'10'?>s;
+  -webkit-animation-duration: <?=(isset($album['Album']['play_speed']))?$album['Album']['play_speed']:'10'?>s;
   -webkit-animation-play-state: paused
 }
 .slideshow:hover {
