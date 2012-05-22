@@ -31,6 +31,7 @@ class Album extends AppModel {
   function beforeSave() {
     if(isset($this->data[__CLASS__]['shoot_image']['error']) && ($this->data[__CLASS__]['shoot_image']['error'] == 0) ) {
       $id =  (array_key_exists('id', $this->data[__CLASS__])) ? $this->data[__CLASS__]['id'] : $this->id;
+      $path = $this->path . $id;
       $files_tmp = $this->getImages($id);
       $file_name = $path . DS . sprintf('%05d', count($files_tmp[1]) + 1) . '.jpg';
 

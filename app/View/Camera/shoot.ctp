@@ -1,4 +1,4 @@
-<?/*<a href="/album/detail/<?=$id;?>" class="shoot1"><?= $this->Html->image('/img/shoot01.png', array('alt' =>'あると')) ?></a><br />*/?>
+<?= $this->Html->image('shoot01.png')?>
 
   <?= $this->Form->create('Album', array('enctype' => 'multipart/form-data', 'action' => 'upload','type' => 'post', 'url' => $this->here)) ?>
 <?/* if(isset($this->data['Album']['id'])){ ?>
