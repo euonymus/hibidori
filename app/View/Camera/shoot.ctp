@@ -8,6 +8,5 @@
 <?= $this->Form->input('Album.shoot_image', array('type' => 'file', 'label'=>'')) ?>
 <?= $this->Form->error('banner') ?>
 
-    <?=$this->Form->end('保存')?>
-  <?=$this->Form->end()?>
+  <?=$this->Form->end('保存')?>
 

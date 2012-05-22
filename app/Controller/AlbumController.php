@@ -31,6 +31,22 @@ class AlbumController extends AppController {
     $this->set('isPreload', true);
   }
 
+  function select($id = null) {
+    $this->loginCheck();
+    if (!$this->Album->existsTmp($this->OauthLogin->tw_user['id'])) $this->redirect('/');
+    $albums = $this->Album->getAlbumsById($this->OauthLogin->tw_user['id'], $limit = 7);
+    if(empty($albums)) $this->redirect('/');
+
+    if (!is_null($id)) {
+      $result = $this->Album->registerPhotoToAlbum($this->OauthLogin->tw_user['id'], $id);
+      if ($result) {
+        $this->redirect('/album/detail/' . $id);
+      }
+    }
+
+    $this->set('albums', $albums);
+  }
+
   function setting($id = null) {
     if (is_null($id)) $this->redirect('/');
     $this->loginCheck();

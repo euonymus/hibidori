@@ -1,9 +1,11 @@
 <?php /* -*- coding: utf-8 -*- */
 App::uses('Folder', 'Utility');
+App::uses('File', 'Utility');
 class Album extends AppModel {
   public $actsAs = array('ValidationMethods');
 
   public $path = '';
+  const TMP = 'tmp';
 
   public $validate = array(
      'name' => array(
@@ -40,6 +42,50 @@ class Album extends AppModel {
       }
     }
     return true;
+  }
+
+  function saveTmpPic($twuser_id, $data) {
+    $path = $this->path . self::TMP;
+    $file_name = $path . DS . $twuser_id . '.jpg';
+
+    if (!move_uploaded_file($data[__CLASS__]['shoot_image']['tmp_name'], $file_name)) {
+      return false;
+    }
+    return true;
+  }
+
+  function existsTmp($twuser_id) {
+    $tmp_image = $this->getTmpImg($twuser_id);
+    $file = new File($tmp_image);
+    return $file->exists();
+  }
+
+  function registerPhotoToAlbum($twuser_id, $id) {
+    $tmp_image = $this->getTmpImg($twuser_id);
+    $file = new File($tmp_image);
+
+    $path = $this->path . $id;
+    $files_tmp = $this->getImages($id);
+    $file_name = $path . DS . sprintf('%05d', count($files_tmp[1]) + 1) . '.jpg';
+
+    if ($file->copy($file_name)) {
+      return $file->delete();
+    }
+    return false;
+  }
+
+  function getTmpImg($twuser_id) {
+    return $this->path . self::TMP . DS . $twuser_id . '.jpg';
+  }
+
+  function isMine($id, $twuser_id, $allow_null = false) {
+    if (is_null($id)) {
+      if ($allow_null) return true;
+      else return false;
+    }
+
+    $album = $this->getWithTwuser($id, $twuser_id);
+    return !!($album);
   }
 
   function saveNewData($data, $twuser_id) {
