@@ -30,7 +30,22 @@ function preload(imgs){
     }
   };
   viewStatus();
+
 }
+
+function animation_start(){
+  var element = document.getElementById("slideshow");
+  if(element.className=="slideshow") {
+    if(element.style.webkitAnimationPlayState == 'running'){
+      element.style.webkitAnimationPlayState="paused";
+    }else{
+      element.style.webkitAnimationPlayState="running";
+    }
+  }
+
+  $(".slideshow").bind("webkitAnimationEnd",function(){ this.style.webkitAnimationPlayState="paused" });
+}
+
 
 </script>
 
@@ -53,12 +68,10 @@ function preload(imgs){
 .slideshow {
   -webkit-animation-name: slideAnimation;
   -webkit-animation-duration: <?=(isset($album['Album']['play_speed']))?$album['Album']['play_speed']:'10'?>s;
-  -webkit-animation-play-state: paused
-}
-.slideshow:hover {
   -webkit-animation-timing-function: step-start;
-  -webkit-animation-play-state: running;
+  -webkit-animation-play-state: paused
 }
 </style>
 <div id="view">画像の読み込み中です…</div>
-<div class="slideshow"></div>
+<div class="slideshow" id='slideshow' onclick="animation_start()"></div>
+
