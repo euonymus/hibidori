@@ -34,7 +34,7 @@ function preload(imgs){
 }
 
 function animation_start(){
-  var element = document.getElementById("slideshow");
+  var element = $(".slideshow")[0];
   if(element.className=="slideshow") {
     if(element.style.webkitAnimationPlayState == 'running'){
       element.style.webkitAnimationPlayState="paused";
@@ -73,5 +73,5 @@ function animation_start(){
 }
 </style>
 <div id="view">画像の読み込み中です…</div>
-<div class="slideshow" id='slideshow' onclick="animation_start()"></div>
+<div class="slideshow" onclick="animation_start()"></div>
 
