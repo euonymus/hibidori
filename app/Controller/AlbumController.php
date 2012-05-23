@@ -60,9 +60,10 @@ class AlbumController extends AppController {
         //TODO failed to save
         
       }else{
+        $this->redirect('/album/detail/'.$id);
         //get renew data
-        $album = $this->Album->getWithTwuser($id, $this->OauthLogin->tw_user['id']);
-        $updated = true;
+//        $album = $this->Album->getWithTwuser($id, $this->OauthLogin->tw_user['id']);
+//        $updated = true;
       }
     }
 
