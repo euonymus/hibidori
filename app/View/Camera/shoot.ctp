@@ -1,7 +1,6 @@
 <script>
 $(function() {
 	$(".overlay").css({
-	opacity: '0.6',
 	position: 'absolute',
 	top: '50px',
 	left: '0',
@@ -11,16 +10,19 @@ $(function() {
 	$(".person").click(function() {
 		$(".overlay").css('background', 'url(/img/overlay_person.png) no-repeat 0 0');
 		$(".overlay").css('background-position', 'center -40px');
+		$(".overlay").css('opacity', '1');
 	});
 <? if(!is_null($lastfile)): ?>
   $(".lastshoot").click(function() {
 		$(".overlay").css('background', 'url(/img/albums/<?=$id?>/<?=$lastfile?>) no-repeat 0 0');
 		$(".overlay").css('background-position', 'center 0');
+		$(".overlay").css('opacity', '0.3');
 	});
 <? endif; ?>
 	$(".grid").click(function() {
 		$(".overlay").css('background', 'url(/img/grid.png) no-repeat 0 0');
 		$(".overlay").css('background-position', 'center -40px');
+		$(".overlay").css('opacity', '1');
 	});
 	$(".off").click(function() {
 		$(".overlay").css('background-image', 'url()');
