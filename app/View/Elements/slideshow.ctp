@@ -78,5 +78,5 @@ function animation_start(){
 </style>
 <div id="view">画像の読み込み中です…</div>
 <!-- 再生ボタン画像位置は無理やりstyle直書きで設定してますので治しちゃってください -->
-<div class="slideshow" id='slideshow' onclick="animation_start()" style="text-align:center; padding-top:150px;"><?=$this->Html->image('play_button.png');?></div>
+<div class="slideshow" id='slideshow' onclick="animation_start()" style="text-align:center; padding-top:150px;"><?=$this->Html->image('btn_play.png');?></div>
 
