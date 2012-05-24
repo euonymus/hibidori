@@ -1,42 +1,30 @@
-<style>
-li {
-  display:inline;float:left;
-  margin-right:10px;
-  position:relative;
-}
-.overlay {
-  position:absolute;
-  top:0;
-  left:0;
-  width:400px;
-  height:400px;
-  background:url(/img/overlay_person.png) no-repeat 0 0;
-  opacity: 0;
-  -webkit-transition: opacity .25s linear;
-  -moz-transition: opacity .25s linear;
-  -o-transition: opacity .25s linear;
-  transition: opacity .25s linear;
-  /* IE7 */
- filter: alpha(opacity=0);
-  /* IE8 */
-  -ms-filter:
-  "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  z-index:0;
-}
-.overlay:hover {
-  opacity: 1;
-  /* IE7 */
-  filter: alpha(opacity=75);
-  /* IE8 */
-  -ms-filter:
-  "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
-}
-</style>
+<script>
+$(function() {
+	$(".overlay").css({
+	opacity: '0.6',
+	position: 'absolute',
+	top: '0',
+	left: '0',
+	width: '100%',
+	height: '100%',
+	});
+	$(".person").click(function() {
+		$(".overlay").css('background', 'url(/img/overlay_person.png) no-repeat 0 0');
+		$(".overlay").css('background-position', 'center center');
+	});
+	$(".lastshoot").click(function() {
+		$(".overlay").css('background', 'url(/img/albums/<?=$id?>/<?=$lastfile?>) no-repeat 0 0');
+		$(".overlay").css('background-position', 'center center');
+	});
+});
+</script>
 
 <ul>
   <li>
-     <a href="#"><?= $this->Html->image('shoot01.png')?>
-     <span class="overlay"></span></a>
+    <a href="#"><?= $this->Html->image('shoot01.png')?>
+    <div style="float:left;"><a class="person" href="#"><?= $this->Html->image('overlay_person_button.png')?></a></div>
+    <div style="float:none;"><a class="lastshoot" href="#"><?= $this->Html->image('overlay_lastshoot_button.png')?></a></div>
+    <div class="overlay"></div>
   </li>
 </ul>
 
