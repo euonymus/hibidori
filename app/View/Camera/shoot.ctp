@@ -3,30 +3,32 @@ $(function() {
 	$(".overlay").css({
 	opacity: '0.6',
 	position: 'absolute',
-	top: '0',
+	top: '50px',
 	left: '0',
 	width: '100%',
 	height: '100%',
 	});
 	$(".person").click(function() {
 		$(".overlay").css('background', 'url(/img/overlay_person.png) no-repeat 0 0');
-		$(".overlay").css('background-position', 'center center');
+		$(".overlay").css('background-position', 'center -40px');
 	});
 	$(".lastshoot").click(function() {
 		$(".overlay").css('background', 'url(/img/albums/<?=$id?>/<?=$lastfile?>) no-repeat 0 0');
-		$(".overlay").css('background-position', 'center center');
+		$(".overlay").css('background-position', 'center 0');
 	});
 });
 </script>
 
-<ul>
-  <li>
-    <a href="#"><?= $this->Html->image('shoot01.png')?>
-    <div style="float:left;"><a class="person" href="#"><?= $this->Html->image('overlay_person_button.png')?></a></div>
-    <div style="float:none;"><a class="lastshoot" href="#"><?= $this->Html->image('overlay_lastshoot_button.png')?></a></div>
+
+    <?= $this->Html->image('shoot01.png')?>
+    <ul class="camera-nav">
+      <li><a class="person" href="#">人物</a></li>
+      <li><a class="lastshoot" href="#">風景</a></li>
+      <li><a class="grid" href="#">グリッド表示</a></li>
+      <li><a class="off" href="#">オフ</a></li>
+    </ul>
     <div class="overlay"></div>
-  </li>
-</ul>
+
 
   <?= $this->Form->create('Album', array('enctype' => 'multipart/form-data', 'action' => 'upload','class' => 'form', 'type' => 'post', 'url' => $this->here)) ?>
 
