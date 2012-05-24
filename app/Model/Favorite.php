@@ -21,6 +21,11 @@ class Favorite extends AppModel {
     return $this->find('all', $options);
   }
 
+  function addFavorites($id, $twuser_id) {
+    // TODO: 実装する
+    return true;
+  }
+
   function optActive() {
     $options = array();
     $options['conditions'] = array(__CLASS__.'.status' => 1);

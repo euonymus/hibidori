@@ -24,40 +24,37 @@ class FavoriteController extends AppController {
 //  }
 
   // API from Ajax
-  function add($id) {
+  function add() {
     $this->autoRender = false;
     $this->layout = NULL;
 
     if (!$this->request->is('ajax')) {
-      $this->cakeError(
-        "error500",
-        array()
-      );
+// TODO: check how to handle error.
+//      $this->cakeError(
+//        "error500",
+//        array()
+//      );
       exit;
     }
 
-    header("Content-Type: application/json; charset=utf-8");
-/*
     // Input check
-    if (!$this->data) {
-      echo json_encode(array('message' => '正しいメールアドレスを入力してください。'));
-      return;
-    }
+    if (!$this->data) exit;
 
     // Input validation
-    $this->Mailaddress->set($this->data);
-    if(!$this->Mailaddress->validates()) {
-      echo json_encode(array('message' => '正しいメールアドレスを入力してください。'));
+    if (!array_key_exists('id', $this->data['Favorite'])) exit;
+    if (!$this->OauthLogin->login) exit;
+
+
+    $id = $this->data['Favorite']['id'];
+
+    header("Content-Type: application/json; charset=utf-8");
+
+    $saved = $this->Favorite->addFavorites($id, $this->OauthLogin->tw_user['id']);
+    if (!$saved) {
+      echo json_encode(array('message' => 'お気に入りへの登録に失敗しました。'));
       return;
     }
 
-    // Mail send
-    $sent = $this->_sendRegisterMailToCore($this->data['Mailaddress']['mailBeforeAt'] . '@' . $this->data['Mailaddress']['mobileDomain']);
-    if (!$sent) {
-      echo json_encode(array('message' => 'メール送信に失敗しました。'));
-      return;
-    }
-*/
     echo json_encode(array('message' => 'お気に入り登録が完了しました。'));
     return;
   }
