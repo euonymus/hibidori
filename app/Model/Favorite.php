@@ -21,9 +21,15 @@ class Favorite extends AppModel {
     return $this->find('all', $options);
   }
 
-  function addFavorites($id, $twuser_id) {
-    // TODO: 実装する
-    return true;
+  function addFavorites($album_id, $twuser_id) {
+    if($this->isFavorite($album_id, $twuser_id)){
+      return false;
+    }
+    
+    $this->status = 1;
+    $this->album_id = $album_id;
+    $this->twuser_id = $twuser_id;
+    return $this->save($this);
   }
   
   function isFavorite($album_id, $twuser_id){

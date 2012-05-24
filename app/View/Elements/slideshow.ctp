@@ -19,9 +19,10 @@ function preload(imgs){
     for(var i = 0; i < objArray.length; i++){
       if(objArray[i].complete) count++;
     }
-    str += objArray.length + "件中" + count + "件完了";
+    str += objArray.length + "件中" + count + "件読み込み";
     if(count == objArray.length){
-      str += ":すべて完了しました。"
+      //str += ":すべて完了しました。";
+      str = "　";
     }
     var viewElem = document.getElementById("view");
     if(viewElem) viewElem.innerHTML = str;
