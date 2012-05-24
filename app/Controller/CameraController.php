@@ -27,7 +27,7 @@ class CameraController extends AppController {
     $lastfile = "";
     if($id != null){
       $files = $this->Album->getImages($id);
-      $lastfile = $files[1][count($files[1])-1];
+      $lastfile = ((count($files[1]) == 0)? null: $files[1][count($files[1])-1]);
     }
 
     $this->set('lastfile', $lastfile);
