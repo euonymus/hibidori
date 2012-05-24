@@ -9,7 +9,7 @@ class CameraController extends AppController {
 //    if (is_null($id)) $this->redirect('/');
 
     if(!$this->Album->isMine($id, $this->OauthLogin->tw_user['id'], true)) $this->redirect('/');
-
+    
     if ($this->data) {
       if (is_null($id)) {
         if ($this->Album->saveTmpPic($this->OauthLogin->tw_user['id'], $this->data)) {
@@ -23,6 +23,14 @@ class CameraController extends AppController {
       }
     }
 
+    //TODO model‚É‚Á‚Ä‚¢‚­H
+    $lastfile = "";
+    if($id != null){
+      $files = $this->Album->getImages($id);
+      $lastfile = $files[1][count($files[1])-1];
+    }
+
+    $this->set('lastfile', $lastfile);
     $this->set('hideFooter', true);
     $this->set('id', $id);
   }
