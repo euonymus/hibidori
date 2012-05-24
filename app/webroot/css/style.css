@@ -99,6 +99,18 @@ html, body {
   height: 300px;
   margin: 0 auto 10px auto;
   overflow: hidden;
+  position: relative;
+}
+
+.wl-slideshow .btn-play {
+  background: transparent url(../img/btn_play.png) 0 0 no-repeat;
+  width: 74px;
+  height: 70px;
+  display: block;
+  position: absolute;
+  left: 75px;
+  top: 70px;
+  text-indent: -9999px;
 }
 
 h1 {

@@ -996,3 +996,89 @@
 2012-05-22 20:39:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
 #0 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-05-23 11:27:33 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-23 11:27:40 Error: [MissingActionException] Action WelcomeController::assets() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 10:22:53 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-24 10:22:59 Error: [MissingActionException] Action WelcomeController::assets() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 13:42:52 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-24 13:45:34 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-24 14:21:50 Error: [MissingControllerException] Controller class Log.jsController could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-24 15:02:09 Error: [MissingActionException] Action WelcomeController::assets() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 15:02:32 Error: [MissingActionException] Action WelcomeController::assets() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 15:33:09 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-05-24 15:33:09 Error: [MissingActionException] Action WelcomeController::assets() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 15:59:47 Error: [MissingActionException] Action WelcomeController::assets() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 15:59:56 Error: [MissingActionException] Action WelcomeController::assets() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 16:12:47 Error: [MissingActionException] Action WelcomeController::assets() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 16:13:58 Error: [MissingActionException] Action WelcomeController::assets() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 16:14:10 Error: [MissingActionException] Action WelcomeController::assets() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 16:14:15 Error: [MissingActionException] Action WelcomeController::assets() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 16:14:22 Error: [MissingActionException] Action WelcomeController::blank.gif() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 16:14:56 Error: [MissingActionException] Action WelcomeController::blank.gif() could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tomoko-monzen/work/hibidori/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(WelcomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 16:53:52 Error: [MissingControllerException] Controller class AssetsController could not be found.
+#0 /Users/tomoko-monzen/work/hibidori/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
