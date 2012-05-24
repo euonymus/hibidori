@@ -115,6 +115,7 @@ class Album extends AppModel {
 
   function getNewAlbums($limit = 16) {
     $options = $this->optActive();
+    $options['conditions']['public'] = 1;
     $options['order'] = 'modified desc';
     $options['limit'] = $limit;
 
