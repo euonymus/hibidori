@@ -24,7 +24,7 @@ class CameraController extends AppController {
     }
 
     //TODO model‚ÉŽ‚Á‚Ä‚¢‚­H
-    $lastfile = "";
+    $lastfile = null;
     if($id != null){
       $files = $this->Album->getImages($id);
       $lastfile = ((count($files[1]) == 0)? null: $files[1][count($files[1])-1]);

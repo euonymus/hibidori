@@ -5,15 +5,15 @@ $(function() {
 	top: '50px',
 	left: '0',
 	width: '100%',
-	height: '100%',
+	height: '400px',
 	});
 	$(".person").click(function() {
 		$(".overlay").css('background', 'url(/img/overlay_person.png) no-repeat 0 0');
 		$(".overlay").css('background-position', 'center -40px');
 		$(".overlay").css('opacity', '1');
 	});
-<? if(!is_null($lastfile)): ?>
-  $(".lastshoot").click(function() {
+<? if(!is_null($lastfile) && !is_null($id)): ?>
+	$(".lastshoot").click(function() {
 		$(".overlay").css('background', 'url(/img/albums/<?=$id?>/<?=$lastfile?>) no-repeat 0 0');
 		$(".overlay").css('background-position', 'center 0');
 		$(".overlay").css('opacity', '0.3');
