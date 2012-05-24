@@ -25,6 +25,13 @@ class Favorite extends AppModel {
     // TODO: 実装する
     return true;
   }
+  
+  function isFavorite($album_id, $twuser_id){
+    $options = $this->optActive();
+    $options['conditions'][__CLASS__.'.album_id'] = $album_id;
+    $options['conditions'][__CLASS__.'.twuser_id'] = $twuser_id;
+    return $this->find('first', $options);
+  }
 
   function optActive() {
     $options = array();
