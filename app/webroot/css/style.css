@@ -285,6 +285,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .start-button a,
 .button a,
+.setting button[type=button],
 .button input[type=submit],
 .submit input[type=submit] {
   border-radius: 5px;
@@ -306,6 +307,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .button a,
+.setting button[type=button],
 .button input[type=submit],
 .submit input[type=submit] {
   background: #499bea;
@@ -322,7 +324,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 
 .submit input[type=submit] {
   margin-left: 225px;
-  
 }
 
 .button input[type=submit] {
@@ -431,3 +432,31 @@ border: #ff3019 1px solid;
   text-indent: -9999px;
 }
 
+.setting {
+  margin: 20px;
+}
+
+.setting .formtext {
+  margin-bottom: 10px;
+}
+
+.setting .range {
+  margin-bottom: 10px;
+}
+
+.setting .radio {
+  margin-bottom: 10px;
+}
+
+.setting div.submit {
+  float:left;
+}
+
+.setting .submit input[type=submit] {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.setting button[type=button] {
+  margin: 0px;
+}
