@@ -6,12 +6,20 @@ class CameraController extends AppController {
 
   function shoot($id = null) {
     $this->loginCheck();
-    if (is_null($id)) $this->redirect('/');
+//    if (is_null($id)) $this->redirect('/');
+
+    if(!$this->Album->isMine($id, $this->OauthLogin->tw_user['id'], true)) $this->redirect('/');
 
     if ($this->data) {
-      $this->Album->id = $id;
-      if ($this->Album->save($this->data)) {
-        $this->redirect('/album/detail/' . $id);
+      if (is_null($id)) {
+        if ($this->Album->saveTmpPic($this->OauthLogin->tw_user['id'], $this->data)) {
+          $this->redirect('/album/select');
+        }
+      } else {
+        $this->Album->id = $id;
+        if ($this->Album->save($this->data)) {
+          $this->redirect('/album/detail/' . $id);
+        }
       }
     }
 

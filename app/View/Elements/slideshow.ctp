@@ -30,8 +30,25 @@ function preload(imgs){
     }
   };
   viewStatus();
+
 }
 
+function animation_start(){
+  var element = $(".slideshow")[0];
+  element.innerHTML="";
+  if(element.className=="slideshow") {
+    if(element.style.webkitAnimationPlayState == 'running'){
+      element.style.webkitAnimationPlayState="paused";
+    }else{
+      element.style.webkitAnimationPlayState="running";
+    }
+  }
+  $(".slideshow").bind("webkitAnimationEnd",function(){ 
+    this.style.backgroundImage='url("/img/albums/<?=$id?>/<?=$files[100]?>")';
+    this.innerHTML="<img src='/img/replay_button.png'>";
+    this.style.webkitAnimationPlayState="paused";
+  });
+}
 </script>
 
 <style>
@@ -53,12 +70,13 @@ function preload(imgs){
 .slideshow {
   -webkit-animation-name: slideAnimation;
   -webkit-animation-duration: <?=(isset($album['Album']['play_speed']))?$album['Album']['play_speed']:'10'?>s;
-  -webkit-animation-play-state: paused
-}
-.slideshow:hover {
   -webkit-animation-timing-function: step-start;
-  -webkit-animation-play-state: running;
+  -webkit-animation-play-state: paused;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction: alternate;
 }
 </style>
 <div id="view">画像の読み込み中です…</div>
-<div class="slideshow"></div>
+<!-- 再生ボタン画像位置は無理やりstyle直書きで設定してますので治しちゃってください -->
+<div class="slideshow" id='slideshow' onclick="animation_start()" style="text-align:center; padding-top:150px;"><?=$this->Html->image('btn_play.png');?></div>
+

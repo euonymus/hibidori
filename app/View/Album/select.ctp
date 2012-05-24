@@ -1,0 +1,1 @@
+<h1>登録するアルバムを選択</h1><ul class="albumlists"><? foreach($albums as $album) : ?>  <li>    <?=$album['Album']['name']?>    <span class="play"><a href="/album/select/<?= $album['Album']['id'] ?>"><?=$this->Html->image('/img/play_button.png',array('alt'=>'アルバムを選択'))?></a></span>  </li><? endforeach; ?></ul>
