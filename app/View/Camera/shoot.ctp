@@ -12,10 +12,13 @@ $(function() {
 		$(".overlay").css('background', 'url(/img/overlay_person.png) no-repeat 0 0');
 		$(".overlay").css('background-position', 'center center');
 	});
-	$(".lastshoot").click(function() {
+
+<? if(!is_null($lastfile)): ?>
+  $(".lastshoot").click(function() {
 		$(".overlay").css('background', 'url(/img/albums/<?=$id?>/<?=$lastfile?>) no-repeat 0 0');
 		$(".overlay").css('background-position', 'center center');
 	});
+<? endif; ?>
 });
 </script>
 
@@ -23,7 +26,9 @@ $(function() {
   <li>
     <a href="#"><?= $this->Html->image('shoot01.png')?>
     <div style="float:left;"><a class="person" href="#"><?= $this->Html->image('overlay_person_button.png')?></a></div>
+<? if(!is_null($lastfile)): ?>
     <div style="float:none;"><a class="lastshoot" href="#"><?= $this->Html->image('overlay_lastshoot_button.png')?></a></div>
+<? endif; ?>
     <div class="overlay"></div>
   </li>
 </ul>
