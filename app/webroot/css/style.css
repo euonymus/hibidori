@@ -158,10 +158,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', end
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
   font-size: 1.2em;
   font-weight: 600;
-  min-height: 60px;
-  padding: 10px;
+  padding: 5px 10px;
   color: #fff;
   text-shadow: 1px 1px 0 #333;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.user_profile_detail {
+  position: absolute;
+  top: 5px;
+  left: 10px;
 }
 
 .user-profile a,
@@ -171,17 +179,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
   text-decoration: none;
 }
 
-.user-profile .user-img,
-.user-profile img {
-  width: 55px;
-  height: 55px;
+.user_profile_detail .name {
+  line-height: 35px;
 }
 
 .user-profile .name {
-  line-height: 55px;
+  line-height: 50px;
 }
 
-.user-profile .user-img {
+.user-profile .user-img,
+.user_profile_detail .user-img {
   display: block;
   float: left;
   margin-right: 10px;
@@ -293,17 +300,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   padding: 10px 17px;
 }
 
-.submit input[type=submit] {
-  margin-left: 250px;
-}
-
-.button input[type=submit] {
-  position: absolute;
-  right: 10px;
-  bottom: -10px;
-}
-
-
 .error-message {
   color: #ff9999;
   margin-bottom: 5px;
@@ -322,6 +318,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 );
   border: #3399ff 1px solid;
   text-shadow:  0 1px #3399ff;
+}
+
+.submit input[type=submit] {
+  margin-left: 225px;
+  
+}
+
+.button input[type=submit] {
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
 }
 
 .start-button a {
@@ -372,6 +379,31 @@ border: #ff3019 1px solid;
   font-size: 150%;
 }
 
+.camera-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.camera-nav li,
+.camera-nav li a {
+  display: block;
+  float: left;
+  width: 80px;
+  height: 40px;
+  text-indent: -9999px;
+}
+
+.play-slide {
+  position: relative;
+  padding-top: 30px;
+}
+
+.fav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
 
 .footer {
   clear:both;
