@@ -1,7 +1,7 @@
 <?php
 App::uses('Folder', 'Utility');
 class AlbumController extends AppController {
-  public $uses = array('Album');
+  public $uses = array('Album', 'Favorite');
 
   function index() { $this->redirect('/'); }
 
@@ -24,11 +24,19 @@ class AlbumController extends AppController {
     if (empty($album)) $this->redirect('/');
 
     $files = $this->Album->getAnimationFiles($id);
+    
+    $isFavorite = false;
+    $isLogin = $this->OauthLogin->login;
+    if($isLogin){
+      $isFavorite = $this->Favorite->isFavorite($id, $this->OauthLogin->tw_user['id']);
+    }
 
     $this->set('id', $id);
     $this->set('album', $album);
     $this->set('files', $files);
     $this->set('isPreload', true);
+    $this->set('isLogin', $isLogin);
+    $this->set('isFavorite', $isFavorite);
   }
 
   function select($id = null) {
