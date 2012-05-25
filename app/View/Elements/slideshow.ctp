@@ -45,9 +45,9 @@ function animation_start(){
     }
   }
   $(".slideshow").bind("webkitAnimationEnd",function(){ 
-    this.style.backgroundImage='url("/img/albums/<?=$id?>/<?=$files[100]?>")';
     this.innerHTML="<img src='/img/replay_button.png'>";
     this.style.webkitAnimationPlayState="paused";
+    this.style.backgroundImage='url("/img/albums/<?=$id?>/<?=$files[100]?>")';
   });
 }
 </script>
