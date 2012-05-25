@@ -228,8 +228,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
   height:76px;
 }
 
-.albumlists {
-  margin-bottom: 30px;
+.albumlists { margin-bottom: 30px;}
+
+.form {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  color: #fff;
 }
 
 .albumlists li {
@@ -333,15 +338,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 }
 
 .start-button a {
-background: #ff3019;
-background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404));
-background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 100%);
-background: -o-linear-gradient(top,  #ff3019 0%,#cf0404 100%);
-background: -ms-linear-gradient(top,  #ff3019 0%,#cf0404 100%);
-background: linear-gradient(top,  #ff3019 0%,#cf0404 100%);
+  background: #ff3019;
+  background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404));
+  background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 100%);
+  background: -o-linear-gradient(top,  #ff3019 0%,#cf0404 100%);
+  background: -ms-linear-gradient(top,  #ff3019 0%,#cf0404 100%);
+  background: linear-gradient(top,  #ff3019 0%,#cf0404 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
-border: #ff3019 1px solid;
+  border: #ff3019 1px solid;
   font-size: 20px;
   width: 265px;
   margin: 0 auto;
@@ -360,7 +365,6 @@ border: #ff3019 1px solid;
   display: block;
   padding: 10px;
   width: 95%;
-  font-size: 150%;
 }
 
 .inputtext,
